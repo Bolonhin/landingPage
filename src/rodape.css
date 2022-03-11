@@ -1,0 +1,59 @@
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+  height: 6em;
+}
+.rodape .barra-menu-rodape .menu-rodape .opcoes-rodape {
+  display: flex;
+  flex-direction: row;
+}
+.rodape .barra-menu-rodape {
+  margin-left: 3em;
+}
+.rodape .barra-menu-rodape .menu-rodape .opcoes-rodape li {
+  margin: 1em;
+  list-style: none;
+  font-size: 0.8em;
+  margin: auto 0.4rem;
+  font-weight: 300;
+}
+.rodape .barra-menu-rodape p {
+  font-size: 1.2em;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.rodape .logos-redes-sociais {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2em;
+}
+.rodape .logos-redes-sociais p {
+  font-size: 0.7em;
+  opacity: 0.5;
+}
+.rodape .logos-redes-sociais .logos img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+.rodape .barra-menu-rodape .menu-rodape .opcoes-rodape li:hover {
+  border-bottom: solid 2px #fff;
+  transition: 0.2s;
+}
+.rodape .menu-rodape .opcoes-rodape li a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.rodape .menu-rodape .opcoes-rodape li {
+  list-style: none;
+  margin-bottom: 1em;
+}

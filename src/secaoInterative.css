@@ -1,0 +1,42 @@
+.containerSecaoUm {
+  position: relative;
+  display: flex;
+  max-width: 900px;
+  margin: 5em auto;
+  width: 90%;
+  height: 100%;
+  justify-content:space-between;
+  margin-bottom: 10em;
+  border: none;
+}
+.containerSecaoUm .textoSecaoUm {
+  display: flex;
+  position:absolute;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  max-width: 540px;
+  width: 50%;
+  height: 65%;
+  right: 0;
+  bottom:0;
+  text-overflow: ellipsis;
+  padding: 0 1em;
+}
+.containerSecaoUm .textoSecaoUm h2 {
+  width: 90%;
+  margin-top: 1em;
+  font-size:1.7em;
+  max-width: 440px;
+}
+.containerSecaoUm .textoSecaoUm p {
+  width: 90%;
+  margin-top: 2em;
+  line-height: 1.5em;
+  font-size: 80%;
+  max-width: 440px;
+}
+.containerSecaoUm .imagem-interative {
+  width: 70%;
+}

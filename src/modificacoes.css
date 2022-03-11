@@ -1,0 +1,9 @@
+.opacidade {
+  opacity: 0.5;
+}
+.aparecer-menu {
+  display: flex;
+}
+.fundo-bt{
+  background:url(images/icon-close.svg);
+}

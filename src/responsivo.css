@@ -1,0 +1,218 @@
+@media (max-width: 900px) {
+  .cabecalho .barra-menu .menu .opcoes {
+    background: url(images/icon-hamburger.svg) center center no-repeat;
+    background-size: cover;
+  }
+  .cabecalho .barra-menu .menu .opcoes {
+    display: none;
+  }
+  .cabecalho .barra-menu .menu .opcoes li:hover {
+    border: none;
+    list-style: disabled;
+  }
+  .cabecalho .botão-menu {
+    display: grid;
+  }
+}
+@media (max-width: 800px) {
+  .containerSecaoUm .textoSecaoUm h2 {
+    font-size: 1.5em;
+  }
+  .containerSecaoUm .textoSecaoUm p {
+    font-size: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .opcoesDeQuadros {
+    width: 90%;
+    max-width: 500px;
+  }
+  .containerSecaoUm .textoSecaoUm h2 {
+    font-size: 100%;
+  }
+  .containerSecaoUm .textoSecaoUm p {
+    font-size: 60%;
+    margin-top: 5px;
+  }
+  .containerSecaoUm .textoSecaoUm {
+    width: 51%;
+  }
+  .principal .principal-quadros .cabecalho-quadros {
+    max-width: 500px;
+  }
+  .opcoesDeQuadros .quadros {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 10em;
+  }
+  .cabecalho {
+    background: url(images/mobile/image-hero.jpg) center center no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    color: #fff;
+  }
+  .opcoesDeQuadros .deep {
+    background: url(images/mobile/image-deep-earth.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .opcoesDeQuadros .night {
+    background: url(images/mobile/image-night-arcade.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opcoesDeQuadros .soccer {
+    background: url(images/mobile/image-soccer-team.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opcoesDeQuadros .the-grid {
+    background: url(images/mobile/image-grid.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opcoesDeQuadros .from {
+    background: url(images/mobile/image-from-above.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opcoesDeQuadros .pocket {
+    background: url(images/mobile/image-pocket-borealis.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opcoesDeQuadros .curiosity {
+    background: url(images/mobile/image-curiosity.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opcoesDeQuadros .make {
+    background: url(images/mobile/image-fisheye.jpg),
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 550px) {
+  .bt-responsivo .bt-inferior {
+    display: inline;
+  }
+  .cabecalho-quadros .botãoDoQuadro {
+    display: none;
+  }
+  .opcoesDeQuadros {
+    max-width: 300px;
+  }
+  .principal .principal-quadros .cabecalho-quadros {
+    justify-content: center;
+  }
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .rodape .barra-menu-rodape .menu-rodape .opcoes-rodape {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+  }
+  .rodape .barra-menu-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2em 0;
+  }
+  .rodape .barra-menu-rodape .menu-rodape .opcoes-rodape li {
+    margin: 1em;
+  }
+
+  .rodape .logos-redes-sociais {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  .rodape .logos-redes-sociais p {
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
+  .rodape .logos-redes-sociais .logos img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    margin-bottom: 2em;
+  }
+  .containerSecaoUm .textoSecaoUm {
+    position: relative;
+    max-width: 900px;
+    width: 80%;
+  }
+  .containerSecaoUm .textoSecaoUm h2 {
+    width: 90%;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .containerSecaoUm .textoSecaoUm p {
+    width: 70%;
+    margin-top: 2em;
+    line-height: 1.5em;
+  }
+  .containerSecaoUm {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .cabecalho .caixaDeTexto {
+    max-width: 26em;
+    padding: 1em 2em 1em 2em;
+    border: solid 1px #fff;
+    margin-left: 5em;
+  }
+  .principal {
+    align-items: center;
+    justify-content: center;
+  }
+  .cabecalho .caixaDeTexto {
+    max-width: 13em;
+    padding: 1em;
+    border: solid 1px #fff;
+  }
+  .cabecalho .barra-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cabecalho {
+    justify-content: center;
+    align-items: center;
+  }
+  .cabecalho .caixaDeTexto h1 {
+    font-weight: 300;
+    font-size: 1.7em;
+  }
+}

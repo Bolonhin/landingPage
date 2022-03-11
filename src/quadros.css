@@ -1,0 +1,125 @@
+.opcoesDeQuadros {
+  display: grid;
+  grid-gap: 0.8em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 90%;
+  max-width: 900px;
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+.opcoesDeQuadros .quadros {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 30em;
+  transition: 0.9s;
+}
+.principal-quadros .opcoesDeQuadros .quadros h3 {
+  color: #fff;
+  font-weight: 300;
+  margin-left: 1em;
+  width: 69%;
+  margin-bottom: 1.7em;
+  font-size: 1.7em;
+}
+.principal-quadros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.principal .principal-quadros .cabecalho-quadros {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 90%;
+}
+.cabecalho-quadros .botãoDoQuadro {
+  color: black;
+  border: solid 1px black;
+  width: 7em;
+  height: 2em;
+  font-weight: 900;
+  border-radius: 3px;
+}
+.cabecalho-quadros h2 {
+  font-weight: 400;
+}
+
+.bt-responsivo .bt-inferior {
+  margin-bottom: 2em;
+  width: 7em;
+  height: 2em;
+  display: none;
+  border-radius: 5px;
+}
+
+.opcoesDeQuadros .deep {
+  background: url(images/desktop/image-deep-earth.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .night {
+  background: url(images/desktop/image-night-arcade.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .soccer {
+  background: url(images/desktop/image-soccer-team.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .the-grid {
+  background: url(images/desktop/image-grid.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .from {
+  background: url(images/desktop/image-from-above.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .pocket {
+  background: url(images/desktop/image-pocket-borealis.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .curiosity {
+  background: url(images/desktop/image-curiosity.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .make {
+  background: url(images/desktop/image-fisheye.jpg),
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) center center
+      no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.opcoesDeQuadros .quadros:hover {
+  opacity: 0.5;
+}
+.cabecalho-quadros .botãoDoQuadro:hover {
+  color: #fff;
+  background-color: black;
+}
+.bt-responsivo .bt-inferior:hover {
+  color: #fff;
+  background-color: black;
+}

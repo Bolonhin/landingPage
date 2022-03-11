@@ -1,0 +1,104 @@
+.cabecalho {
+  background: rgba(0, 0, 0, 0.3) url(images/desktop/image-hero.jpg) center
+    center no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+  color: #fff;
+  position: relative;
+}
+.cabecalho .barra-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho .barra-menu .menu .opcoes {
+  display: flex;
+  list-style: none;
+  margin-top: 3em;
+  margin-right: 6em;
+}
+.cabecalho .barra-menu .menu .opcoes li {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: auto 0.5rem;
+}
+.cabecalho .barra-menu .menu .opcoes a {
+  margin: auto 0.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+.cabecalho .barra-menu .menu {
+  margin-top: 2em;
+}
+.cabecalho .barra-menu p {
+  margin-top: 2em;
+  margin-left: 3.4em;
+  font-weight: 900;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+.cabecalho .caixaDeTexto {
+  max-width: 26em;
+  padding: 1em 2em 1em 2em;
+  border: solid 1px #fff;
+  margin-left: 5em;
+}
+.cabecalho .caixaDeTexto h1 {
+  font-weight: 300;
+  font-size: 3em;
+}
+
+.cabecalho .boxTexto {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+
+.cabecalho .barra-menu .menu .opcoes li:hover {
+  border-bottom: solid 2px #fff;
+  transition: 0.2s;
+}
+ .botão-menu {
+  width: 20px;
+  height: 20px;
+  background: url(images/icon-hamburger.svg) center center no-repeat;
+  background-size: cover;
+  border: none;
+  display: none;
+  color: transparent;
+  position: absolute;
+  right: 3em;
+  margin-top: 4.1em;
+  z-index: 2;
+}
+.menu-reponsivo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.9s;
+  width: 30%;
+  height: 20em;
+  right: 0;
+  top: 0;
+  margin-top: 1em;
+  display: none;
+  border-radius: 5px;
+  z-index: 1;
+}
+.cabecalho .menu-reponsivo .opcoes2 li a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.cabecalho .menu-reponsivo .opcoes2 li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+.cabecalho .menu-reponsivo .opcoes2 li:hover {
+  border-bottom: solid 2px #fff;
+}
