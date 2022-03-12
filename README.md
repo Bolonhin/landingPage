@@ -1,3 +1,9 @@
+# Landing page
+## Tecnologias utilizadas
+* HTML
+* CSS 
+* JavaScript 
+
 ![html-5 (1)](https://user-images.githubusercontent.com/89819353/156862423-b20f8f8a-f95c-4232-8840-24d56d09a154.png)
 ![js (1)](https://user-images.githubusercontent.com/89819353/156862405-40eaed69-a290-42e9-921b-b03bda788de6.png)
 ![css-3 (1)](https://user-images.githubusercontent.com/89819353/156862446-6481fdcf-d323-49ea-988e-0b8e91060565.png)
